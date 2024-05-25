@@ -1,0 +1,4 @@
+pandas
+tabulate
+ibis-framework[duckdb,polars,sqlite]
+ipython
