@@ -38,7 +38,7 @@ What has been done:
 - faster parsing of temperature
 - read file by chunk and distributes over multi process (for python) or over multiple threads (for rust)
 - mmap (only in rust)
-- hyperfine to measure time and output the different metrics
+- [hyperfine](https://github.com/sharkdp/hyperfine), cli tool to measure time and output the different metrics
 
 TBD:
 
