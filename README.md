@@ -32,6 +32,7 @@ What has been done:
 
 - use plain python and rust
 - use some common libraries (pandas, polars, duckdb) to see if we can do better (result is yes, with Rust and using multithreading)
+  - polars is actually written in Rust, whereas duckdb is written in C++. But both can be called directly from python, which we do here.
 - pypy to speed up python code (by a factor of at least 3)
 - bytes instead of string
 - faster parsing of temperature
