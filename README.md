@@ -78,7 +78,7 @@ cd rust && cargo build --release
 Then, we can simply run the code:
 
 ```bash
-./target/release/rust <strategy> measurements.txt
+./rust/target/release/<strategy> measurements.txt
 ```
 
 ### To run all strategies
